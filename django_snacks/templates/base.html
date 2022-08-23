@@ -8,6 +8,14 @@
     {% block title%}<title>Enter Unique Value Here</title>{% endblock title%}
 </head>
 <body>
+<header>
+    <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'about' %}">About</a>
+    </nav>
+</header>
+
+<main>
 
 {% block header %}
 <h1>Enter Unique Value Here</h1>
@@ -18,6 +26,7 @@
 <p>Enter Unique Value Here</p>
 {% endblock content%}
 
+</main>
 
 </body>
 </html>
