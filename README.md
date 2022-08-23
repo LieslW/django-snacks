@@ -16,10 +16,18 @@ Utilized the Django library and tools.
 ```python
 
 pip install -r requirements.txt
-python manage.py runserver 
+python django_snacks/manage.py runserver 
 
 ```
 
 ## Tests  
 
+To run the tests:
+```python
+
+python django_snacks/manage.py test
+
+```
+
 Used the Django testing tools and library. Tested whether template, home, and about were being accessed.  
+
